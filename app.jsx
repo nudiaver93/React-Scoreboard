@@ -69,7 +69,7 @@ var AddPlayerForm = React.createClass({
     return (
       <div className='add-player-form'>
         <form onSubmit={this.onSubmit}>
-          <input type='text' placeholder='Enter Player Name' value={this.state.name} onChange={this.onNameChange} />
+          <input type='text' placeholder='Enter Player' value={this.state.name} onChange={this.onNameChange} />
           <input type='submit' value='Submit Player' onAdd={this.onPlayerAdd}/>
         </form>
       </div>
