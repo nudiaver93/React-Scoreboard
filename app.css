@@ -182,13 +182,13 @@ body {
     border-style: none;
     text-shadow: none;
     text-transform: uppercase;
-    color: #999;
+    color: #fff;
     letter-spacing: 2px;
     outline: none;
   }
 
   .add-player-form input[type=text]::-webkit-input-placeholder{
-    color: #666;
+    color: #fff;
     letter-spacing: 2px;
   }
 
@@ -204,7 +204,7 @@ body {
     background-color: #333;
     border-radius: 5px;
     border: none;
-    color: #999;
+    color: #fff;
     letter-spacing: 2px;
     font-weight: bold;
     text-shadow: none;
